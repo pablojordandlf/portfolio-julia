@@ -94,6 +94,29 @@ const abilities = [
   },
 ];
 
+const languages = [
+  {
+    imgPath: "/images/spain.png",
+    title: "Spanish",
+    desc: "Native",
+  },
+  {
+    imgPath: "/images/reino-unido.png",
+    title: "English",
+    desc: "C2 - Proficient",
+  },
+  {
+    imgPath: "/images/italia.png",
+    title: "Italian",
+    desc: "C1 - Advanced",
+  },
+  {
+    imgPath: "/images/francia.png",
+    title: "French",
+    desc: "B2 - Upper Intermediate",
+  },
+];
+
 const techStackImgs = [
   {
     name: "React Developer",
@@ -331,4 +354,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  languages,
 };
