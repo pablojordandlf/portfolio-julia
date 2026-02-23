@@ -26,8 +26,8 @@ const Hero = () => {
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
           <div className="flex flex-col gap-7">
             <div className="hero-text">
-              <h1>
-                Shaping
+              <h1>Marketing Manager</h1>
+              <h1>focused on 
                 <span className="slide">
                   <span className="wrapper">
                     {words.map((word, index) => (
@@ -46,20 +46,19 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
-              code.
+              Hi, I’m Julia, I design acquisition, retention, and engagement <br/> strategies across Spain, LATAM, Italy, and Portugal.
             </p>
 
+            {/*
             <Button
               text="See My Work"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
+            */}
           </div>
         </header>
 
@@ -71,7 +70,7 @@ const Hero = () => {
         </figure>
       </div>
 
-      <AnimatedCounter />
+      {/* <AnimatedCounter /> */}
     </section>
   );
 };

@@ -1,8 +1,8 @@
 const navLinks = [
-  {
-    name: "Work",
-    link: "#work",
-  },
+ // {
+ //   name: "Work",
+ //   link: "#work",
+ // },
   {
     name: "Experience",
     link: "#experience",
@@ -18,18 +18,18 @@ const navLinks = [
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "growth", imgPath: "/images/ideas.svg" },
+  { text: "community", imgPath: "/images/concepts.svg" },
+  { text: "brand", imgPath: "/images/designs.svg" },
+  { text: "growth", imgPath: "/images/ideas.svg" },
+  { text: "community", imgPath: "/images/concepts.svg" },
+  { text: "brand", imgPath: "/images/designs.svg" },
+  { text: "growth", imgPath: "/images/ideas.svg" },
+  { text: "community", imgPath: "/images/concepts.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 9, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
   { value: 108, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
@@ -74,18 +74,23 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Growth & Acquisitions",
+    desc: "Paid media, organic channels, lifecycle marketing.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Community & Brand",
+    desc: "Strategy, partnerships, events, positioning.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Retention & Engagement",
+    desc: "CRM, nurture flows, customer marketing.",
+  },
+  {
+    imgPath: "/images/star.png",
+    title: "Go-to-Market Strategy",
+    desc: "Iberia, LATAM & Southern Europe expansion.",
   },
 ];
 
@@ -147,41 +152,79 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    logoPath: "/images/teamtailor logo.png",
+    title: "Marketing Manager Iberia, Italy & LATAM",
+    date: "December 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Lead regional marketing strategy across Iberia, Italy, and LATAM, aligning local growth initiatives with global business objectives.",
+      "Design and execute multi-market acquisition and brand awareness campaigns across digital and offline channels.",
+      "Develop go-to-market strategies tailored to cultural and market-specific nuances.",
+      "Drive community-building initiatives through events, partnerships, and localized content.",
+      "Collaborate cross-functionally with Sales, Customer Success, and Global Marketing to optimize pipeline and revenue growth.",
+      "Analyze performance metrics and continuously optimize strategies based on data insights.",
+      "Close relationship with Sales in order to help them sell faster and better",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    logoPath: "/images/teamtailor logo.png",
+    title: "Marketing Manager Spain & LATAM",
+    date: "May 2022 – December 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Owned the full marketing strategy for Spain and LATAM, driving brand positioning and lead generation.",
+      "Executed paid media, content, CRM, and event marketing initiatives to increase acquisition and engagement.",
+      "Built and nurtured strategic partnerships to expand local market presence.",
+      "Led regional events, webinars, and community activations to strengthen brand awareness.",
+      "Monitored campaign performance and optimized conversion funnels to improve ROI.",
+      "Close relationship with Sales in order to help them sell faster and better."
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "",
     imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    logoPath: "/images/thefork_logo.png",
+    title: "Strategic Marketing & Content",
+    date: "April 2021 – May 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed and executed strategic content marketing plans aligned with business growth objectives.",
+      "Managed cross-channel campaigns including social media, email marketing, and branded content.",
+      "Conducted market research and competitor analysis to refine positioning and messaging.",
+      "Collaborated with internal stakeholders to ensure consistent brand communication.",
+      "Measured content performance and implemented optimization strategies.",
+      "Optimized restaurant positioning and search visibility based on market trends, user behavior, and performance data across major Spanish cities."
     ],
   },
+  {
+    review: "",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/weroad.gif",
+    title: "Content Marketing & Social Media",
+    date: "January 2021 – April 2021",
+    responsibilities: [
+      "Created and executed social media campaigns to increase engagement and brand visibility.",
+      "Developed content strategies aligned with audience interests and brand positioning.",
+      "Analyzed social media performance and optimized campaigns accordingly.",
+      "Supported influencer collaborations and community initiatives."
+    ],
+  },
+  {
+    review: "",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/weroad.gif",
+    title: "Communication and CRM Specialist",
+    date: "October 2019 – January 2021",
+    responsibilities: [
+      "Bootstrap Spain as new market.",
+      "Managed CRM strategies to improve user engagement and retention.",
+      "Designed and executed email marketing campaigns and automation workflows.",
+      "Monitored lifecycle performance metrics and optimized customer journeys.",
+      "Coordinated cross-functional communication strategies to align messaging across channels."
+    ],
+  },
+
 ];
 
 const expLogos = [
