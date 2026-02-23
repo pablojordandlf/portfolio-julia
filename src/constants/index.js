@@ -11,10 +11,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+//  {
+//    name: "Testimonials",
+//    link: "#testimonials",
+//  },
 ];
 
 const words = [
@@ -222,6 +222,19 @@ const expCards = [
       "Designed and executed email marketing campaigns and automation workflows.",
       "Monitored lifecycle performance metrics and optimized customer journeys.",
       "Coordinated cross-functional communication strategies to align messaging across channels."
+    ],
+  },
+  {
+    review: "",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/Tiller logo.png",
+    title: "Marketing & Communications Assistant",
+    date: "May 2019 – July 2019",
+    responsibilities: [
+      "Supported the execution of marketing and communication initiatives across digital channels.",
+      "Assisted in content creation, campaign coordination, and reporting.",
+      "Contributed to brand positioning and audience engagement strategies.",
+      "Conducted market research and performance analysis."
     ],
   },
 
